@@ -57,10 +57,10 @@ function BannerVideoSlider () {
   var banner = $("#main-banner-slider.video-slider");
   if (banner.length) {
     banner.revolution({
-      sliderType:"standard",
-      sliderLayout:"auto",
-      loops:true,
-      delay:10000,
+      sliderType: "standard",
+      sliderLayout: "auto",
+      loops: true,
+      delay: Number.MAX_VALUE,
       navigation: {
           /*
           arrows: {
