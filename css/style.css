@@ -413,6 +413,17 @@ animation-delay: .8s;
 #main-banner-slider {
   min-height: 100vh;
 }
+#main-banner-slider h1 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 110pt;
+}
+#main-banner-slider h6 {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 50pt;
+}
 .rev_slider_wrapper {
   background: #000;
   min-height: 100vh;
@@ -424,13 +435,15 @@ animation-delay: .8s;
   font-weight: 500;
 }
 .banner .project-button {
-  width: 170px;
   line-height: 50px;
   text-align: center;
   border-width: 1px;
   text-transform: uppercase;
-  color: black;
+  color: white;
   font-weight: 470;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 40pt;
 }
 /*** 
 
