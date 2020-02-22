@@ -409,8 +409,13 @@ animation-delay: .8s;
 ====================================================================
 
  ***/
+
+#main-banner-slider {
+  min-height: 100vh;
+}
 .rev_slider_wrapper {
   background: #000;
+  min-height: 100vh;
 }
 .banner h1,.banner h6,.banner .project-button {
   color:#fff;
@@ -424,6 +429,7 @@ animation-delay: .8s;
   text-align: center;
   border-width: 1px;
   text-transform: uppercase;
+  color: red;
 }
 /*** 
 
