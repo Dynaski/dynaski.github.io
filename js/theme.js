@@ -116,7 +116,8 @@ function onePageFixedNav() {
       $('body').scrollspy({target: ".theme-main-header", offset: 70});   
 
       // Add smooth scrolling on all links inside the one-page-menu
-      $(".one-page-menu li a").on('click', function(event) {
+      // as well as the jumps to products
+      $(".one-page-menu li a, .tp-caption a, .single-service-content a").on('click', function(event) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
           // Prevent default anchor click behavior
