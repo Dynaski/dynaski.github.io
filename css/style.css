@@ -429,7 +429,8 @@ animation-delay: .8s;
   text-align: center;
   border-width: 1px;
   text-transform: uppercase;
-  color: red;
+  color: black;
+  font-weight: 470;
 }
 /*** 
 
