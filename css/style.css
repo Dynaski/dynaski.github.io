@@ -999,6 +999,9 @@ animation-delay: .8s;
 #pricing-section .single-price-table strong.color3 {
   background: #179680;
 }
+#pricing-section .single-price-table strong.color4 {
+  background: #101010;
+}
 #pricing-section .single-price-table ul li {
   line-height: 45px;
 }
